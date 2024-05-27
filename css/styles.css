@@ -1,0 +1,122 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header-section {
+    background-image: url('../images/titul2.png');
+    background-size: cover; /* Adjust the size to cover the entire section */
+    background-position: center; /* Center the image */
+    height: 1000px; /* Adjust the height as needed */
+    width: 100%;
+
+}
+
+.background-section {
+    background-image: url('../images/sec2.png');
+    background-size: cover; /* Adjust the size to cover the entire section */
+    background-position: center; /* Center the image */
+    height: 1000px; /* Adjust the height as needed */
+    text-align: center; /* Center the text content */
+
+}
+
+.background-section2 {
+  background-image: url('../images/team.png');
+  background-size: cover; /* Adjust the size to cover the entire section */
+  background-position: center; /* Center the image */
+  height: 1000px; /* Adjust the height as needed */
+  text-align: center; /* Center the text content */
+}
+
+.background-section3 {
+  background-image: url('../images/fon2.png');
+  background-size: cover; /* Adjust the size to cover the entire section */
+  background-position: center; /* Center the image */
+  height: 500px; /* Adjust the height as needed */
+  text-align: center; /* Center the text content */
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.centered-button {
+    padding: 10px 20px; /* Adjust the padding as needed */
+    font-size: 25px; /* Adjust the font size as needed */
+    font-weight: bold;
+    background-color: black; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 15px; /* Adjust the border radius as needed */
+    cursor: pointer;
+    margin-top: 20px; /* Adjust to your preferred spacing from the top */
+   margin-left: 850px; /* Adjust to your preferred spacing from the left */
+   margin-right: auto;
+  margin-bottom: 95%;
+  /* Adjust to your preferred spacing from the right */
+}
+
+.address {
+  padding: 10px 20px; /* Adjust the padding as needed */
+  font-size: 25px; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-bottom: 70px;
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+    width: 40px; /* Adjust the icon size */
+    height: 40px; /* Adjust the icon size */
+    margin: 0 10px; /* Adjust the spacing between icons */
+    background-size: cover;
+}
+
+.instagram {
+    background-image: url('../images/instagram.png'); /* Replace with your Instagram icon */
+}
+
+.youtube {
+    background-image: url('../images/youtube.png'); /* Replace with your YouTube icon */
+}
+
+.linkedin {
+    background-image: url('../images/linkedin.png'); /* Replace with your LinkedIn icon */
+}
+.gmail {
+    background-image: url('../images/gmail.png');
+}
+.copyright {
+  font-size: 15px;
+
+}
+
+.image-container {
+  height: 100%; /* Make the image responsive to its container */
+  margin-left: 1500px;
+}
+img {
+  max-width: 50%; /* Make the image responsive to its container */
+  height: auto; /* Ensure the image maintains its aspect ratio */
+  }
