@@ -1,20 +1,18 @@
-
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  background: url('../images/background2.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
+
 
 .header-section {
     background-image: url('../images/titul2.png');
-    background-size: cover; /* Adjust the size to cover the entire section */
+    background-size: 70%;
+    background-repeat: no-repeat;
     background-position: center; /* Center the image */
     height: 1000px; /* Adjust the height as needed */
     width: 100%;
@@ -23,7 +21,8 @@ body {
 
 .background-section {
     background-image: url('../images/sec2.png');
-    background-size: cover; /* Adjust the size to cover the entire section */
+    background-size: 70%;
+    background-repeat: no-repeat;
     background-position: center; /* Center the image */
     height: 1000px; /* Adjust the height as needed */
     text-align: center; /* Center the text content */
@@ -32,7 +31,8 @@ body {
 
 .background-section2 {
   background-image: url('../images/team.png');
-  background-size: cover; /* Adjust the size to cover the entire section */
+  background-size: 70%;
+  background-repeat: no-repeat;
   background-position: center; /* Center the image */
   height: 1000px; /* Adjust the height as needed */
   text-align: center; /* Center the text content */
@@ -40,7 +40,8 @@ body {
 
 .background-section3 {
   background-image: url('../images/fon2.png');
-  background-size: cover; /* Adjust the size to cover the entire section */
+  background-size: 70%;
+    background-repeat: no-repeat;
   background-position: center; /* Center the image */
   height: 500px; /* Adjust the height as needed */
   text-align: center; /* Center the text content */
