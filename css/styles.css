@@ -61,15 +61,8 @@ nav ul li a:hover {
 
 }
 
-.background-section {
-    background-image: url('../images/sec2.png');
-    background-size: 70%;
-    background-repeat: no-repeat;
-    background-position: center; /* Center the image */
-    height: 1000px; /* Adjust the height as needed */
-    text-align: center; /* Center the text content */
 
-}
+
 
 .background-section2 {
   background-image: url('../images/team.png');
@@ -163,3 +156,28 @@ img {
   max-width: 50%; /* Make the image responsive to its container */
   height: auto; /* Ensure the image maintains its aspect ratio */
   }
+
+  .info {
+    background-image: url('../images/sec2.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    height: 1000px; /* Adjust the height as needed */
+    text-align: center; /* Center the text content */
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 1rem; 
+  width: 80%;
+}
+
+.box {
+  margin-top: 60%;
+  margin-left: 40%;
+  padding: 5px;
+  text-align: right; 
+}
+
