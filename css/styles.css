@@ -74,11 +74,9 @@ nav ul li a:hover {
 }
 
 .background-section3 {
-  background-image: url('../images/fon2.png');
-  background-size: 70%;
-    background-repeat: no-repeat;
-  background-position: center; /* Center the image */
-  height: 500px; /* Adjust the height as needed */
+  margin-top: 6rem;
+  padding-top: 6rem;
+  height: 100%; /* Adjust the height as needed */
   text-align: center; /* Center the text content */
 }
 
@@ -153,31 +151,60 @@ nav ul li a:hover {
   margin-left: 1500px;
 }
 img {
-  max-width: 50%; /* Make the image responsive to its container */
+  max-width: 100%; /* Make the image responsive to its container */
   height: auto; /* Ensure the image maintains its aspect ratio */
   }
 
-  .info {
-    background-image: url('../images/sec2.png');
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: center; /* Center the image */
-    height: 1000px; /* Adjust the height as needed */
-    text-align: center; /* Center the text content */
-
+.info {
+  text-align: center; /* Center the text content */
+  background-image: url('../images/tree.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
 }
 
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
   gap: 1rem; 
-  width: 80%;
+  width: 90%;
+ 
+  }
+
+ 
+article {
+  font-family: "Vollkorn", serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #6d2323;
+  font-style: normal;
+  background-color: rgb(209, 198, 185);
+  box-shadow: 10px 10px 15px 5px rgba(119, 108, 108, 0.5);
+  margin-top: 5%;
+  margin-left:20%;
+  margin-right: 20%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
 .box {
-  margin-top: 60%;
-  margin-left: 40%;
-  padding: 5px;
-  text-align: right; 
+  font-family: "Vollkorn", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.2rem;
+  background-color: rgb(209, 198, 185);
+  box-shadow: 10px 10px 15px 5px rgba(119, 108, 108, 0.5);
+  margin-top: 20%;
+  margin-left: 30%;
+  margin-right: auto;
+  padding: 1rem;
+  text-align: left; 
+}
+.box .box1 {
+  font-weight: 700;
+  font-style: strong;
+  color: #6d2323;
+  font-size: 1.7rem;
 }
 
