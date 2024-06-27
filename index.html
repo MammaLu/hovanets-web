@@ -13,24 +13,45 @@
  <!-- Header with navigation -->
  <header>
   <nav class="navbar">  
-
+    <div class="logo-container">
       <a class = "main-logo" href="./index.html">
         <img src="images/logomain.svg" alt="Hovanets-logo" class="logo">
       </a>
-
+      </div>
+      <button class="burger-menu" onclick="toggleMenu()">
+        <img src="images/burger-closed.svg" alt="Menu" class="burger-icon">
+      </button>
  <div class="navbar-list">
+  <button class="close-menu" onclick="toggleMenu()">
+    <img src="images/cross.svg" alt="Close" class="close-icon">
+  </button>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="./info.html">Game</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Community</a></li>
-        </ul>
+            <li><a href="./index.html" class="navbarlinks">Home</a></li>
+            <li><a href="#" class="navbarlinks">Game</a></li>
+            <li><a href="#" class="navbarlinks">News</a></li>
+            <li><a href="#" class="navbarlinks">Gallery</a></li>
+            <li><a href="#" class="navbarlinks">Team</a></li>
+           </ul>
    </div>
   </nav>
 
 </header>
+<section class="hero-section">
+  <div class="herosection">
+    <img src="images/hero-imagine.png" hidden alt="Hero cover" class="herocover">
+  </div>
+
+  <div class="image-container">
+<img src="images/nominee-badge-black.png" hidden>
+</div>
+
+  <div class="content-wrapper">
+  <!-- Your section content goes here -->
+
+  <a href="https://youtu.be/N0VOikXPZNI" target="_blank" class="centered-button">Watch on YouTube</a>
+</div>
+
+</section>
 
     <section class="header-section">
 
@@ -66,5 +87,6 @@
     </div>
 
     </section>
+    <script src="javascript.js"></script>
   </body>
 </html>
