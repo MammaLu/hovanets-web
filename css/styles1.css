@@ -1,46 +1,83 @@
 .info {
+  
     text-align: center; /* Center the text content */
     background-image: url('../images/tree.png');
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: top;
+    max-width: 100%;
+    justify-content: center;
+  
   }
   
   .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-    gap: 1rem; 
-    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
    
     }
   
+    @media (max-width: 900px) {
+      .container {
+        grid-template-columns: 1fr; /* Two columns for medium screens */
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        grid-template-columns: 1fr; /* Stacks boxes vertically on small screens */
+             }
+    }
+    
+    /* Styles for laptops */
+    @media (min-width: 1024px) {
+      .container {
+        max-width: 960px; /* Up to 960px wide */
+      }
+    }
+    
+    /* Styles for desktops */
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 100%; /* Up to 1140px wide */
+      }
+    }
    
   article {
+   
     font-family: "Vollkorn", serif;
     font-weight: 900;
     font-size: 2rem;
     color: #6d2323;
     font-style: normal;
-    background-color: rgb(209, 198, 185);
-    box-shadow: 10px 10px 15px 5px rgba(119, 108, 108, 0.5);
+    background-color: rgb(209, 198, 185, o,5);
+    box-shadow: 10px 10px 15px 5px rgba(119, 108, 108);
     margin-top: 5%;
     margin-left:20%;
     margin-right: 20%;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     text-align: center;
+    justify-content: center;
+    /* justify-items: center; */
   }
   
   .box {
+    display: flexbox;
+    flex: 1;
+    justify-content: center;
     font-family: "Vollkorn", serif;
     font-weight: 600;
     font-style: normal;
     font-size: 1.2rem;
     background-color: rgb(209, 198, 185);
-    box-shadow: 10px 10px 15px 5px rgba(119, 108, 108, 0.5);
+    opacity: 0.8;
+    box-shadow: 10px 10px 15px 5px rgba(119, 108, 108);
     margin-top: 20%;
-    margin-left: 30%;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right:10%;
     padding: 1rem;
     text-align: left; 
   }
@@ -50,5 +87,6 @@
     color: #6d2323;
     font-size: 1.7rem;
   }
-  
+
+ 
   
