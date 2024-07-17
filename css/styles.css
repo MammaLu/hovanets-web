@@ -8,34 +8,29 @@ body {
   background-size: cover;
 }
 /* Header and Navigation styles */
+
 header {
   width: 100%;
+  height: 0.65vh;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   display: flex;
   justify-content: center;
-  padding-top: 75px;
-
-}
+ }
 
 
 .navbar {
   position: fixed;
   top: 0;
-
   width: 100%;
   display: flex;
   align-items: center;
-
-  padding-left: 52px;
+  padding-left: 4.33vw;
   background-color: white; 
   z-index: 1000; 
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-}
+
 
 .burger-menu {
   display: none;
@@ -47,8 +42,8 @@ header {
 }
 
 .burger-icon {
-  max-width: 42px;
-  height: 42px;
+  max-width: 5vw;
+  height: 3.5vh;
 }
 
 .navbar-list {
@@ -103,13 +98,13 @@ nav ul li a:visited {
   .burger-menu {
     display: block;
     position: absolute;
-    top: 24px;
-    left: 250px;
+    top: 5vw;
+    left: 75vw;
   }
 
   .navbar{
     left: 0;
-    padding: 5px 56px;
+    padding: 1 vh 10vw;
   }
 
   .navbar-list {
@@ -131,8 +126,8 @@ nav ul li a:visited {
     align-items: center;
     margin: 0;
     position: absolute;
-    top: 72px;
-    left: 120px;
+    top: 9.38vw;
+    left: 15.63vw;
   }
 
   nav ul li a:hover {
@@ -140,7 +135,7 @@ nav ul li a:visited {
   }
 
   .navbarlinks {
-    padding: 15px;
+    margin: 7vh;
     text-align: center;
     color: #333;
     font-size: 32px;
@@ -157,18 +152,22 @@ nav ul li a:visited {
   .navbar-list.active .close-menu {
     display: block;
     align-self: flex-end;
-    margin: 10px;
+    margin: 1.3vh;
     background: none;
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 15px;
-    left: 230px;
+    top: 2vh;
+    left: 75vw;
   }
 
   .close-icon {
-    width: 42px;
-    height: 42px;
+    width: 5vw;
+    height: 5vw;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
   }
 
 
@@ -192,7 +191,7 @@ header{
   nav ul li a {
     text-decoration: none; 
      color: #0E9E73;
-     padding: 10px;
+     padding: 1.3vw;
      font-size: 24px;
    }
 }
@@ -205,16 +204,15 @@ header{
   background-size: cover;
   background-position: center;
   position: relative;
-
-
+  margin-top: 7vh;
   text-align: center;
   color: black;
-  padding: 20px;
+  padding: 2.6vh;
 }
 
 .hero-content {
   max-width: 800px;
-  margin: 72px auto;
+  margin: 6vh auto;
   text-align: center; 
   border-radius: 10px;
 }
@@ -232,7 +230,7 @@ header{
 
 .hero-subtitle {
   font-size: 3rem;
-  margin: 20px 0;
+  margin: 2.6vh 0;
 }
 
 .hero-subtitle-accent{
@@ -240,7 +238,7 @@ header{
 }
 
 .hero-buttons {
-  margin-top: 54px;
+  margin-top: 4.4vh;
   display: flex;
  
   justify-content: center;
@@ -250,9 +248,9 @@ header{
 .hero-button {
   background-color: #28a745; 
   color: black;
-  padding: 20px 54px;
-  margin: 0 10px;
-  border-radius: 5px;
+  padding: 2.6vh 4.4vw;
+  margin: 0 1.3vw;
+  border-radius: 0.65vh;
   text-decoration: none;
   font-size: 1.25rem;
   transition: background-color 0.3s;
@@ -287,7 +285,7 @@ header{
     object-fit: cover;
   }
   .hero-content{
-    margin: 31px 40px;
+    margin: 2.6vh 5.2vw;
 
   }
 
@@ -312,9 +310,9 @@ header{
   }
 
   .hero-button {
-    padding: 12px 28px;
+    padding: 1.3vh 7.3vw;
     font-size: 2rem;
-    margin: 18px;
+    margin: 2.3vh;
   }
 }
 
