@@ -91,7 +91,7 @@ nav ul li a:visited {
 .close-menu {
   display: none;
 }
-
+/*MOBILE VERSION-HEADER*/
 @media (max-width: 768px) {
 
 
@@ -172,7 +172,8 @@ nav ul li a:visited {
 
 
 }
-
+/*MOBILE VERSION - HEADER ENDS*/
+/*TABLET VERSION -HEADER*/
 @media (min-width: 768px) and (max-width: 1023px) {
 
 header{
@@ -180,7 +181,7 @@ header{
 }
   .navbar{
     left: 0;
-
+    height: 17vh;
   }
 
   .logo{
@@ -195,6 +196,7 @@ header{
      font-size: 24px;
    }
 }
+/*TABLET VERSION -HEADER ENDS*/
 /* Header and Navigation styles ENDS */
 
 /*Hero section*/
@@ -260,11 +262,11 @@ header{
   background-color: #218838; /
 }
 
-/* adaptive-pad version */
+/* TABLET VERSION - HERO  */
 @media (max-width: 1024px) {
   .hero {
     background-image: url('../images/Hero-pad.png'); 
-
+    margin-top: 16vh;
   }
 
   .hero-title {
@@ -275,14 +277,15 @@ header{
     font-size: 65px;
   }
 }
-
-/*  adaptive-mob version */
+/* TABLET VERSION - HERO ENDS*/
+/*MOBILE VERSION - HERO*/
 @media (max-width: 768px) {
   .hero {
     background-image: url('../images/Hero-mob.png');
     width: 100%;
     height: auto;
     object-fit: cover;
+    margin-top: 9vh;
   }
   .hero-content{
     margin: 2.6vh 5.2vw;
@@ -315,7 +318,7 @@ header{
     margin: 2.3vh;
   }
 }
-
+/*MOBILE VERSION -HERO ENDS*/
 
 /*Hero section ENDS*/
 
