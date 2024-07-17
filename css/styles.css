@@ -104,7 +104,7 @@ nav ul li a:visited {
 
   .navbar{
     left: 0;
-    padding: 1 vh 10vw;
+    height: 10vh;
   }
 
   .navbar-list {
