@@ -42,7 +42,7 @@ header {
 }
 
 .burger-icon {
-  max-width: 5vw;
+  max-width: 10vw;
   height: 3.5vh;
 }
 
@@ -158,12 +158,12 @@ nav ul li a:visited {
     cursor: pointer;
     position: absolute;
     top: 2vh;
-    left: 75vw;
+    left: 70vw;
   }
 
   .close-icon {
-    width: 5vw;
-    height: 5vw;
+    width: 10vw;
+    height: 7vw;
   }
   .logo-container {
     display: flex;
