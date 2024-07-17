@@ -157,8 +157,8 @@ nav ul li a:visited {
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 2vh;
-    left: 70vw;
+    top: 1vh;
+    left: 72vw;
   }
 
   .close-icon {
@@ -169,7 +169,20 @@ nav ul li a:visited {
     display: flex;
     align-items: center;
   }
+  nav ul li {
+    opacity: 0;
+  }
 
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 
 }
 /*MOBILE VERSION - HEADER ENDS*/
