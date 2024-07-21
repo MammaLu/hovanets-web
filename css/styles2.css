@@ -4,31 +4,35 @@ h1 {
     font-size: 3rem;
     color: #6d2323;
     font-style: normal;
-    background-color: rgb(209, 198, 185, o,5);
+    background-color: rgb(209, 198, 185);
     box-shadow: 10px 10px 15px 5px rgba(119, 108, 108);
-    margin-top: 5%;
-    margin-left:30%;
-    margin-right: 30%;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    margin-top: 7%;
+    margin-left:20%;
+    margin-right: 20%;
+    padding: 2rem; 
     text-align: center;
     background-color: rgb(209, 198, 185);
   }
 
    
   .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
     justify-content: center;
     align-items: center;
     gap: 2rem; 
-    width: 90%;
-    
+    margin-left: 2%;
+    margin-top: 10%;
+    margin-right: 2%;
+       
   }
 
  
  
   .box {
-    display: flex;
+    display: flexbox;
+    /* flex: 1; */
     flex: 1 2 calc(30% - 10px);
     flex-direction: column;
     font-family: "Vollkorn", serif;
@@ -36,10 +40,11 @@ h1 {
     font-style: normal;
     font-size: 1.2rem;
     /* box-shadow: 10px 10px 15px 5px rgba(119, 108, 108); */
-    margin: 5%;
+    margin: 1%;
     padding: 1rem;
     text-align: center; 
     border: 3px #6d2323;
+    color: #6d2323;
   }
 
   .box img {
@@ -48,5 +53,70 @@ h1 {
    background-color: rgb(209, 198, 185);
    opacity: 0.8;
    border-radius: 50%;
+   box-shadow: 10px 10px 15px 5px rgba(119, 108, 108);
   }
+
+  @media (max-width: 900px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+    }
+    h1 {
+      margin-top: 20%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      grid-template-columns: 1fr; /* Stacks boxes vertically on small screens */
+           }
+    h1 {
+      margin-top: 20%;
+          }
+  }
+  
+  /* Styles for laptops */
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 960px; /* Up to 960px wide */
+    }
+  }
+  
+  /* Styles for desktops */
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 100%; /* Up to 1140px wide */
+    }
+  }
+
+  /* Animation */
+
+  .box:nth-child(1) {
+    animation: slideIn 0.5s ease-out 0.2s backwards; /* Delay for first box */
+  }
+
+  .box:nth-child(2) {
+    animation: slideIn 0.5s ease-out 0.4s backwards; /* Delay for second box */
+  }
+
+  .box:nth-child(3) {
+    animation: slideIn 0.5s ease-out 0.6s backwards; /* Delay for third box */
+  }
+
+  .box:nth-child(4) {
+    animation: slideIn 0.5s ease-out 0.8s backwards; /* Delay for forth box */
+  }
+
+ 
+  /* Keyframes for the slide-in animation */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
 
