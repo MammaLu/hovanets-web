@@ -196,7 +196,7 @@ header{
 }
   .navbar{
     left: 0;
-    height: 17vh;
+    height: 10vh;
   }
 
   .logo{
@@ -283,7 +283,7 @@ header{
 @media (max-width: 1024px) {
   .hero {
     background-image: url('../images/Hero-pad.png'); 
-    margin-top: 16vh;
+    margin-top: 9vh;
   }
 
   .hero-title {
