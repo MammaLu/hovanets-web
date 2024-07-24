@@ -79,8 +79,8 @@
     margin-top: 20%;
     margin-left: 10%;
     margin-right:10%;
-    padding: 1rem;
-    text-align: left; 
+    padding: 2rem;
+    text-align: justify; 
     
   }
 
@@ -91,6 +91,9 @@
     color: #6d2323;
     font-size: 1.7rem;
   }
+
+  
+
 
  h3 {
   font-weight: 700;
