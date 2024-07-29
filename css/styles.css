@@ -397,6 +397,7 @@ header{
 }
 
 /* Footer section */
+
 .content-wrapper {
     display: flex;
     flex-direction: column;
@@ -413,7 +414,7 @@ header{
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
-    width: 30%;
+    /* width: 30%; */
 }
 
 .icon {
@@ -439,13 +440,14 @@ header{
 
   
 .copyright {
-  font-family: "Vollkorn", serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 1.2rem;
-    margin-bottom: 10%;
-    margin-top: 5%;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.2rem;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  text-align: center;
 
 }
 
